@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif; /* Установите правильный шрифт */
+  margin: 20px;
+}
+
+h1, h2 {
+  font-family: Lato, sans-serif;
+}
+
+.btn {
+  width: 200px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.result {
+  margin: 0 auto;
+  width: 95%;
+  word-wrap: break-word;
+}
+
