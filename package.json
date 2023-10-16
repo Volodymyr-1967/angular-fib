@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "prebuild": "rm -rf dist",  // скрипт для удаления папки перед сборкой,
     "build": "ng build --configuration=production --base-href=https://Volodymyr-1967.github.io/angular-fib/",
     "watch": "ng build --watch --configuration development",
     "deploy": "npx angular-cli-ghpages --dir=dist/angular-fib",
